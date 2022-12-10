@@ -10,7 +10,7 @@ The image is a little large, maybe I'll optimize.
 ## Deploy (docker)
 
 ```
-docker run --name chatgpt-session-server -d --restart always -p 3000:3000 mereith/chatgpt-session-keeper:latest
+docker run --name chatgpt-session-server -d --restart always -p 3000:3000 mereith/chatgpt-session-server:latest
 ```
 
 ## Usage
