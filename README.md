@@ -29,3 +29,27 @@ POST /token
 }
 ```
 
+
+## Run localy
+### Requirement
+
+This package use playright to  simulate login behavior, and use chromium hardless mode.
+
+so you need to install chromium first.
+
+```bash
+npx playwright install chromium
+```
+
+### Run
+
+```bash
+cd src
+npm install
+node server.js
+```
+
+## Separate Package
+
+I also made a separate package just for get session token:
+- [Mereithhh/chatgpt-token](https://github.com/Mereithhh/chatgpt-token)
